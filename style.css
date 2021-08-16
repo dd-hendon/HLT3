@@ -1,0 +1,144 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    text-align: center; 
+}
+
+.header > h1 {
+    font-size: 55px;
+    background-color: rgb(190, 187, 174);
+    color: blanchedalmond;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight:700;
+}
+
+h2.header {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.homecontainer {
+    text-align: center;
+}
+
+.frontpageimg {
+    max-width: 97vw;
+    max-height: 100vh;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.banner {
+    border-radius: 50px;
+    background-color:brown;
+    padding: 25px;      
+}
+
+.banner > a {
+    color: blanchedalmond;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;    
+}
+
+.footer {
+    text-align: center;
+}
+
+.footerimg  {
+    vertical-align: middle;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.contact {
+    margin-left: 7px;
+    width: 92vw;
+    height: 50vh;
+    font-size: medium;
+    border: 10px solid lightgray; 
+    padding: 5px;
+}
+
+.contact > p {
+    font-weight: lighter;
+}
+
+.reachoutimg {
+    max-width: 65%;
+    max-height: 100%;    
+    float: right;
+}
+
+.about {
+    display: flex;
+}
+
+.flex1 {
+    flex: 2;
+    padding: 10px;
+}
+
+.crystal1 {
+    width: 100%;
+}
+
+.abouttext  {
+    flex: 3;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.aboutimg {
+    width: 100%;
+    height: 100%;
+}
+
+.pathwayscontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    border: 1px transparent black;
+    position: relative;
+    text-align: center;
+}
+
+.imagetext > a  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+}
+
+.karate > a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(161, 42, 42);
+    text-decoration: none;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+}
